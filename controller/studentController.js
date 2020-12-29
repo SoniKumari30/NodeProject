@@ -1,5 +1,5 @@
 const Student = require("../models/studenModel");
-//
+
 exports.addStudentDetails = async(req,res) =>{
     try{
         const user = await Student.create(req.body);
@@ -17,7 +17,6 @@ exports.addStudentDetails = async(req,res) =>{
     }
 
 }
-//
 
 exports.getStudentDetails = async(req,res)=>{
     try {

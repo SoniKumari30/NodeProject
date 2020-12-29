@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 var Float = require('mongoose-float').loadType(mongoose);
-//
+
 const studentSchema = new mongoose.Schema({
     name:{
         type: String,
