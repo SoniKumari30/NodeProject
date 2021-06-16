@@ -9,7 +9,7 @@ mongoose.connect(db,{
     useCreateIndex:true,
     useFindAndModify:true
 }).then(con=>{
-   // console.log(con.connections);
+   // console.log(con.connections);//
     console.log("db connected");
 }).catch(e=>{
     console.log(e);
