@@ -8,7 +8,7 @@ router
     .post(studentController.addStudentDetails);
 
 router
-    .route('/getstudent')//
+    .route('/getstudent')
     .get(studentController.getStudentDetails);
 
 router

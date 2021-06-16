@@ -7,7 +7,7 @@ exports.addStudentDetails = async(req,res) =>{
             status:true,
             message:'created',
             details:user
-        });//
+        });
     }catch(e){
         res.status(400).json({
             status:false,
